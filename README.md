@@ -38,7 +38,7 @@ TensorRT, OpenVINO, ONNX Runtime 등 다중 백엔드를 단일 인터페이스�
 ```mermaid
 flowchart TB
 
-A[Application<br/>YOLO · EfficientNet · Segmentation]
+A[Application<br/>Classification · Detection · Segmentation · OCR · Anomaly]
 
 B[AI Core Layer<br/>Pre/Post Processing<br/>Memory Management]
 
@@ -48,7 +48,7 @@ D[TensorRT Backend<br/>Async GPU Inference]
 E[ONNX Runtime Backend<br/>Cross-platform Execution]
 F[OpenVINO Backend<br/>CPU / Intel Acceleration]
 
-G[Platform Interface<br/>Windows DLL · Jetson .so]
+G[Platform Interface<br/>Windows DLL · Linux-Edge .so]
 
 A --> B
 B --> C
