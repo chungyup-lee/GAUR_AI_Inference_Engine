@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/BISON_AI_DLL_banner.png" width="100%" alt="BISON AI Banner">
+  <img src="assets/BISON_AI_Inference_banner.png" width="100%" alt="BISON AI Banner">
 </p>
 
 
